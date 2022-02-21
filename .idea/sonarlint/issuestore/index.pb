@@ -25,15 +25,15 @@ w
 Gsrc/main/java/co/com/choucair/utest/userinterface/LocationDataPage.java,2\9\29a6d0e4c74ca60c80b86984a9f9f9e25071ee1c
 z
 Jsrc/main/java/co/com/choucair/utest/userinterface/CredentialsDataPage.java,a\8\a802f2f587d0c77f5525af1b04ed1082daf3cbbe
+O
+target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
 k
 ;src/test/java/co/com/choucair/utest/runners/RunnerTags.java,1\e\1eaf1621974a981de9883af461ff37fda237bb95
 u
 Esrc/main/java/co/com/choucair/utest/tasks/FillOutTheLocationData.java,0\1\01773fe87c310080d001e5dd8268421038ac8e6d
-}
-Msrc/test/java/co/com/choucair/utest/stepdefinitions/UtestStepDefinitions.java,8\7\8739a366ec214729a4912a6ef110a4557ea37445
 w
 Gsrc/main/java/co/com/choucair/utest/userinterface/PersonalDataPage.java,7\2\72b31e641a72be21ef7c7237fc677e5c85a7235b
 x
 Hsrc/main/java/co/com/choucair/utest/tasks/FillOutTheCredentialsData.java,e\a\ea03328fe875c8fd8f5e9fc1f5a157f68c89f169
-O
-target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
+}
+Msrc/test/java/co/com/choucair/utest/stepdefinitions/UtestStepDefinitions.java,8\7\8739a366ec214729a4912a6ef110a4557ea37445
