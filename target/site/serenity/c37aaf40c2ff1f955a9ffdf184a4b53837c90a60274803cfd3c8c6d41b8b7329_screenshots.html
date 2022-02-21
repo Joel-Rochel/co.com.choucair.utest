@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="c37aaf40c2ff1f955a9ffdf184a4b53837c90a60274803cfd3c8c6d41b8b7329.html">Register on the Utest site </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-02-2022 17:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to register on the platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register on the Utest site
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e1e7ab1f3ee91320bcda60144f220f19200d61aba8e738754054d8fe6eaa497d.png" title=" Given Joel wants to register on the Utest site" width="1366"/>
+                <img src="e1e7ab1f3ee91320bcda60144f220f19200d61aba8e738754054d8fe6eaa497d.png" title=" Joel open up" width="1366"/>
+                <img src="e1e7ab1f3ee91320bcda60144f220f19200d61aba8e738754054d8fe6eaa497d.png" title=" Joel opens the Utest page" width="1366"/>
+                <img src="e1e7ab1f3ee91320bcda60144f220f19200d61aba8e738754054d8fe6eaa497d.png" title=" Joel open up (completed)" width="1366"/>
+                <img src="4aab4bb7a1852cf48aef1c723b4fd30f3c1d4715dcaef75668e92174f527de5e.png" title=" Joel register" width="1366"/>
+                <img src="4aab4bb7a1852cf48aef1c723b4fd30f3c1d4715dcaef75668e92174f527de5e.png" title=" Joel clicks on Button that shows us the registration" width="1366"/>
+                <img src="4aab4bb7a1852cf48aef1c723b4fd30f3c1d4715dcaef75668e92174f527de5e.png" title=" Joel register (completed)" width="1366"/>
+                <img src="4aab4bb7a1852cf48aef1c723b4fd30f3c1d4715dcaef75668e92174f527de5e.png" title=" Given Joel wants to register on the Utest site (completed)" width="1366"/>
+                <img src="b8f60d72c7ca02176c983b67171f817e6d2f191eff631e5cc4f3f7711da20670.png" title=" When start the registration process in Utest
+| strName | strLastName | strEmail | strMonth | strDay | strYear | strLanguagePage | strCity | strZip | strCountry | strComputer | strVersion | strLanguage | strMobile | strModel | strOS | strPassword |
+| Joel David | Rochel Hernandez | joelrochel103@gmail.com | August | 24 | 1998 | Spanish | Ceret&eacute; | 230550 | Colombia | Windows | Windows 10 | Spanish | Xiaomi | Redmi Note 8 | Android 11 | 123@PassReto |" width="1366"/>
+                <img src="b8f60d72c7ca02176c983b67171f817e6d2f191eff631e5cc4f3f7711da20670.png" title=" Joel fill out the personal data" width="1366"/>
+                <img src="b8f60d72c7ca02176c983b67171f817e6d2f191eff631e5cc4f3f7711da20670.png" title=" Joel enters 'Joel David' into We write the username" width="1366"/>
+                <img src="f2d8ddb9bd24873183d07ea6dd1f6238a2d0ef8a5bca5f252cff0e380e5acbf9.png" title=" Joel enters 'Rochel Hernandez' into We write the last name of the user" width="1366"/>
+                <img src="f91329d8c8883816b5c62cb6a7f2a87b4ece3d5e8359fa5c78d93025ed5b0254.png" title=" Joel enters 'joelrochel103@gmail.com' into We write the user email" width="1366"/>
+                <img src="7254cc7d25891762139e5cba9b83ca64c6d98f46f8630f1703ae4c8d6a7d06b5.png" title=" Joel select August on We select the month of birth" width="1366"/>
+                <img src="8f7bb8be014ff63d220f25317a05fd3716a9e44dbe49e49c7a9a1ccbbb3fb670.png" title=" Joel select 24 on We select the day of birth" width="1366"/>
+                <img src="c73a85b0bca5b4655b56b13cf0cd9c32ac2ee38dc23fd3c7e3ebf8490075801d.png" title=" Joel select 1998 on We select the year of birth" width="1366"/>
+                <img src="52edcf2b54b5c85d000aca88f77788daa9e58e7b9a1544d2bfd2d27a0d3598bf.png" title=" Joel enters 'Spanish' into We write the language" width="1366"/>
+                <img src="af9515ac7eb54b561ddf6086ec1eb9bd6778e15b1f690b3c4811814231d0b295.png" title=" Joel types 'ENTER' in We write the language" width="1366"/>
+                <img src="6858f3ede70ab4c08e0714025383915877a632e2ea5f4456d4fdeb2a17308dae.png" title=" Joel clicks on Button next:location" width="1366"/>
+                <img src="6858f3ede70ab4c08e0714025383915877a632e2ea5f4456d4fdeb2a17308dae.png" title=" Joel fill out the personal data (completed)" width="1366"/>
+                <img src="b8a8835fa09ed0186fa7b2777459458108cbd7667913f241b300bc7b59bea9c4.png" title=" Joel fill out the location data" width="1366"/>
+                <img src="b8a8835fa09ed0186fa7b2777459458108cbd7667913f241b300bc7b59bea9c4.png" title=" Joel enters 'Ceret&eacute;' into We write the city" width="1366"/>
+                <img src="b90c644e94f014b77d48502dabdc387ac46f2379ceb81d28a12693ffc0313d67.png" title=" Joel types 'ARROW_DOWN' in We write the city" width="1366"/>
+                <img src="d44d2bd5e05979311eca5626c173743c508e0f21a89e94fd7b11fe9a32b4d9af.png" title=" Joel types 'ENTER' in We write the city" width="1366"/>
+                <img src="ed7920850d0016152e0d55af07a9bf6eec55187d14cf172e092ec56e111d7eef.png" title=" Joel enters '230550' into We write the postal code" width="1366"/>
+                <img src="d7372811a777a7ce2d657dbf69c040fc70ea99cc79e8ea8306e02e5b4a4ddbf7.png" title=" Joel clicks on We select the country" width="1366"/>
+                <img src="d1607f091e59f7bccac67ff063695db8376f1eeec5b7f72df5ce5085992c48a2.png" title=" Joel enters 'Colombia' into We write the country" width="1366"/>
+                <img src="93bde769ab346ccccee391987527ea53ea9e849f711ce5b47b24698c0d737d4a.png" title=" Joel clicks on Boton next:devives" width="1366"/>
+                <img src="93bde769ab346ccccee391987527ea53ea9e849f711ce5b47b24698c0d737d4a.png" title=" Joel fill out the location data (completed)" width="1366"/>
+                <img src="71a7142a49ff0a2a1ca0e189895a05e8d202833f6aef49630ba85ae7e422acf1.png" title=" Joel fill out the devices data" width="1366"/>
+                <img src="71a7142a49ff0a2a1ca0e189895a05e8d202833f6aef49630ba85ae7e422acf1.png" title=" Joel clicks on We select the computer" width="1366"/>
+                <img src="fb0ec832f6e0805980386a7dfb0bf6ef2f2ba3c26153bed125a59d981a92aad9.png" title=" Joel enters 'Windows' into We write the computer" width="1366"/>
+                <img src="da9623e6f88abf1e040ded6e139c15cad80da0af71663ec660b7ec7834f67652.png" title=" Joel types 'ENTER' in We write the computer" width="1366"/>
+                <img src="8d21ee3b655007112baac60f09defca83d813d3ddeb18c6c6efaa076688fe6e5.png" title=" Joel clicks on We select the version of the OS" width="1366"/>
+                <img src="37d35d7b166c5dbf5e2615f05e68def737d8fadf13c360aa70a169bf27146a1a.png" title=" Joel enters 'Windows 10' into We write the OS version" width="1366"/>
+                <img src="84fd8e1cf0b588dd88ec64f3377752d43a079f0d44e19982c03a233c279d3d64.png" title=" Joel types 'ENTER' in We write the OS version" width="1366"/>
+                <img src="44ebedd7d0c061678bafc57662d65d82d92e371837e29d5c7b5ce81deee2b656.png" title=" Joel clicks on We select the language" width="1366"/>
+                <img src="eeb1a88880a8c1f16c530627a809c7cc847d6fc0eb2ee6464449afa97b65083f.png" title=" Joel enters 'Spanish' into We write the language" width="1366"/>
+                <img src="bf20b74e79097aafe29e3016154edcfbc94f764481fa8a2b9ec2ad9a6a8790d8.png" title=" Joel types 'ENTER' in We write the language" width="1366"/>
+                <img src="719040f0d647d4efd79ef4f8a237aa17083597dcb861c691540b621d0caf908d.png" title=" Joel clicks on We select the cell phone" width="1366"/>
+                <img src="685d288206bb1ee9f721a2d833e2a9c86a39f084ad6bdb6560dcf824c9a1ab8f.png" title=" Joel enters 'Xiaomi' into We write the cell" width="1366"/>
+                <img src="fe1122de47920b8245eb71eb7ca6acc685eedaa5c0917844c9e9f85212ead3c1.png" title=" Joel types 'ENTER' in We write the cell" width="1366"/>
+                <img src="9370ca80f58ef5315122b34dd50695e4882c1781dab5b41d29fc4403b36d4f58.png" title=" Joel clicks on We select the model" width="1366"/>
+                <img src="ece263d08bd3b534828cd22eb364a87b1f75c45355a83770e87206090e994007.png" title=" Joel enters 'Redmi Note 8' into We write the model" width="1366"/>
+                <img src="f828f59366d19796492f3129fbda3e51c633bbe76fb11d0a20a58d1e4e1e6f04.png" title=" Joel types 'ENTER' in We write the model" width="1366"/>
+                <img src="f03a959c227b5dd955cc1f83c3469832c8caba2532ab43da99c23ce3703fbb7e.png" title=" Joel clicks on We select the OS of the cell phone" width="1366"/>
+                <img src="98c4a57873d18b9e73e7a4f2f0114bfaced40534b536e458b3bf849e609a26bf.png" title=" Joel enters 'Android 11' into We write the OS of the cell phone" width="1366"/>
+                <img src="7282b24c8dff75bd10325945fc132043055232d2285a133dfd56a969df45b579.png" title=" Joel types 'ENTER' in We write the OS of the cell phone" width="1366"/>
+                <img src="55c4645fb430cc3bb8fe7e2dc374f9724e9ab766a74afaeaef70c8c4c36fd993.png" title=" Joel clicks on Boton next:Last Step" width="1366"/>
+                <img src="55c4645fb430cc3bb8fe7e2dc374f9724e9ab766a74afaeaef70c8c4c36fd993.png" title=" Joel fill out the devices data (completed)" width="1366"/>
+                <img src="d1cde000ecced795e858e9c46d253c0b740d967ce840d3958d57fe64e66c2bcf.png" title=" Joel fill out the credentials data" width="1366"/>
+                <img src="d1cde000ecced795e858e9c46d253c0b740d967ce840d3958d57fe64e66c2bcf.png" title=" Joel enters '123@PassReto' into We write the password" width="1366"/>
+                <img src="a3c07a921eb41994505b54ee10c24e8e9d879f05f8148b04fc713768e146d8d8.png" title=" Joel enters '123@PassReto' into We confirm the password" width="1366"/>
+                <img src="67399aca97dfae413de8cac965123b3bc7b933ea697b9a5b7a6d3babe5e530df.png" title=" Joel clicks on We mark to keep you informed" width="1366"/>
+                <img src="2798191cd8c9707f93d58d0100710c4bad1f58eeb505011faa0f954fbca0712d.png" title=" Joel clicks on We mark to accept the terms" width="1366"/>
+                <img src="398dcf26ab60e8af5ae79a71a138f67653fc3a1503b72c08cb5e6ca05d369260.png" title=" Joel clicks on We mark to accept privacy" width="1366"/>
+                <img src="af5e443db7dba7153adec742ce92aee8b8263732def11792788a5be4ba8cee71.png" title=" Joel clicks on Boton next:Last Step" width="1366"/>
+                <img src="af5e443db7dba7153adec742ce92aee8b8263732def11792788a5be4ba8cee71.png" title=" Joel fill out the credentials data (completed)" width="1366"/>
+                <img src="af5e443db7dba7153adec742ce92aee8b8263732def11792788a5be4ba8cee71.png" title=" When start the registration process in Utest
+| strName | strLastName | strEmail | strMonth | strDay | strYear | strLanguagePage | strCity | strZip | strCountry | strComputer | strVersion | strLanguage | strMobile | strModel | strOS | strPassword |
+| Joel David | Rochel Hernandez | joelrochel103@gmail.com | August | 24 | 1998 | Spanish | Ceret&eacute; | 230550 | Colombia | Windows | Windows 10 | Spanish | Xiaomi | Redmi Note 8 | Android 11 | 123@PassReto | (completed)" width="1366"/>
+                <img src="915e268993198e66dce6b0db165a656102e3aedfa8b6f3150eeddc299035de75.png" title=" Then check the final registration process
+| strConfirmButton |
+| Complete Setup |" width="1366"/>
+                <img src="915e268993198e66dce6b0db165a656102e3aedfa8b6f3150eeddc299035de75.png" title=" Then answer" width="1366"/>
+                <img src="915e268993198e66dce6b0db165a656102e3aedfa8b6f3150eeddc299035de75.png" title=" Then check the final registration process
+| strConfirmButton |
+| Complete Setup | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
