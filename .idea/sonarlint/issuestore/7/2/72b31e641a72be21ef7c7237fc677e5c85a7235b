@@ -1,17 +1,17 @@
 
-[
-java:S3252	"9Use static access with "org.openqa.selenium.By" for "id".(ãÀáÏùÿÿÿÿ8ûõ™ğñ/
-V
-java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(©Œ³8üõ™ğñ/
-[
-java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Îÿæßüÿÿÿÿ8ıõ™ğñ/
-V
-java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(áÁÖ8şõ™ğñ/
-V
-java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(¤ø¹µ8€ö™ğñ/
-[
-java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(‚Ø¶Åûÿÿÿÿ8ö™ğñ/
-^
-java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(¬î½¸øÿÿÿÿ8‚ö™ğñ/
-^
-java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(âÿİ×ÿÿÿÿÿ8ƒö™ğñ/
+T
+java:S3252	"9Use static access with "org.openqa.selenium.By" for "id".(ãÀáÏùÿÿÿÿ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(©Œ³
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(Îÿæßüÿÿÿÿ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(áÁÖ
+O
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(¤ø¹µ
+T
+java:S3252"9Use static access with "org.openqa.selenium.By" for "id".(‚Ø¶Åûÿÿÿÿ
+R
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(¤®×ä
+W
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(âÿİ×ÿÿÿÿÿ

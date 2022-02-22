@@ -7,12 +7,11 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.GivenWhenThen;
-import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import java.util.List;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 
 public class UtestStepDefinitions {
@@ -36,6 +35,6 @@ public class UtestStepDefinitions {
 
     @Then("^check the final registration process$")
     public void checkTheFinalRegistrationProcess(List<UtestData> data) {
-        theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(data)));
+       theActorInTheSpotlight().should(seeThat(Answer.toThe(data)));
     }
 }

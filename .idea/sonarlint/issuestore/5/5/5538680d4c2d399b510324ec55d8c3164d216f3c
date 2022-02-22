@@ -1,4 +1,6 @@
 
 =
-java:S1125"(Remove the unnecessary boolean literals.(ª°õX
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¦¾ˆ
+java:S1125"(Remove the unnecessary boolean literals.(ª°õX
+i
+java:S1128"TRemove this unused import 'co.com.choucair.utest.userinterface.CredentialsDataPage'.(Šñàm
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÒÌÒ

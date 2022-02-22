@@ -10,9 +10,9 @@ public class LocationDataPage extends PageObject {
     public static final Target  INPUT_ZIP = Target.the("We write the postal code")
             .located(By.id("zip"));
     public static final Target  SELECT_COUNTRY = Target.the("We select the country")
-            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[1]/div[4]/div[2]/div/div"));
+            .located(By.xpath("//span[@class= 'ui-select-match-text pull-left']"));
     public static final Target  INPUT_COUNTRY = Target.the("We write the country")
-            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[1]/div[4]/div[2]/div/div/input[1]"));
+            .located(By.xpath("//input[@placeholder= 'Select a country']"));
     public static final Target BUTTON_DEVICES = Target.the("Boton next:devives")
             .located(By.xpath("//a[contains(@class, 'btn btn-blue pull-right')]"));
 }

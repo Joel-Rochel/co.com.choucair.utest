@@ -18,7 +18,7 @@ public class PersonalDataPage extends PageObject {
     public static final Target SELECT_YEAR = Target.the("We select the year of birth")
             .located(By.id("birthYear"));
     public static final Target INPUT_LANGUAGE_PAGE = Target.the("We write the language")
-            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[5]/div[2]/div[1]/input"));
+            .located(By.xpath("//input[@type= 'search']"));
     public static final Target BUTTON_LOCATION = Target.the("Button next:location")
             .located(By.xpath("//a[contains(@class, 'btn btn-blue')]"));
 }
